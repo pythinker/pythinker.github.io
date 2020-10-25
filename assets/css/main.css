@@ -1,10 +1,10 @@
 /******************************************************************************* Variables used throughout the theme. To adjust anything, simply edit the variables below and rebuild the theme. *****************************************************************************/
 /******************************************************************************* Themes *****************************************************************************/
-:root { --global-bg-color: #ffffff; --global-text-color: #000000; --global-theme-color: #B509AC; --global-hover-color: #f648ed; --global-footer-bg-color: #424242; --global-footer-text-color: #e8e8e8; --global-footer-link-color: #ffffff; --global-icon-color: #424242; }
+:root { --global-bg-color: #ffffff; --global-text-color: #3D3D3D; --global-theme-color: #B509AC; --global-hover-color: #f648ed; --global-footer-bg-color: #424242; --global-footer-text-color: #e8e8e8; --global-footer-link-color: #ffffff; --global-icon-color: #424242; }
 :root .fa-sun { display: none; }
 :root .fa-moon { padding-left: 10px; padding-top: 12px; display: block; }
 
-html[data-theme='dark'] { --global-bg-color: #424242; --global-text-color: #e8e8e8; --global-theme-color: #2698BA; --global-hover-color: #7bcce4; --global-footer-bg-color: #e8e8e8; --global-footer-text-color: #424242; --global-footer-link-color: #000000; --global-icon-color: navajowhite; }
+html[data-theme='dark'] { --global-bg-color: #424242; --global-text-color: #e8e8e8; --global-theme-color: #2698BA; --global-hover-color: #7bcce4; --global-footer-bg-color: #e8e8e8; --global-footer-text-color: #424242; --global-footer-link-color: #3D3D3D; --global-icon-color: grey-color-dark; }
 html[data-theme='dark'] .fa-sun { padding-left: 10px; padding-top: 12px; display: block; }
 html[data-theme='dark'] .fa-moon { display: none; }
 
